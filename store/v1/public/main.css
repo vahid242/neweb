@@ -1,0 +1,26 @@
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+header{
+        background-color: rgb(128,0,128);
+}
+
+.input-group{
+    width: 30%;
+    margin: auto;
+    padding-top: 10px;
+    background-color: rgb(128,0,128);
+}
+
+.navbar{
+    background-color: rgb(128,0,128);
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-brand{
+    color: white;
+}
