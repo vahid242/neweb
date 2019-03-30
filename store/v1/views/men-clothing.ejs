@@ -1,0 +1,12 @@
+<% include ./partials/header%>
+
+<h1>this is men page</h1>
+
+<% clothes.forEach(function(clothe){ %>
+    <div>
+        <h4><%= clothe.name%></h4>
+        <img src="<%= clothe.image %>">
+    </div>
+<% }); %>
+
+<% include ./partials/footer%>
