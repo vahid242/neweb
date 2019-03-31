@@ -1,12 +1,18 @@
 <% include ./partials/header%>
 
-<h1>this is men page</h1>
+<h1 class="title">MEN'S CLOTHING & ACCESSORIES</h1>
+
+
+<ul class="grid">
 
 <% clothes.forEach(function(clothe){ %>
-    <div>
-        <h4><%= clothe.name%></h4>
-        <img src="<%= clothe.image %>">
-    </div>
+        <li>
+            <img src="<%= clothe.image %>">
+            <h4><%= clothe.name%></h4>
+        </li>    
 <% }); %>
+</ul>
+
+
 
 <% include ./partials/footer%>
