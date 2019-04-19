@@ -1,0 +1,94 @@
+body{
+        background: #7F7FD5;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+li{
+    list-style: none;
+}
+
+.title{
+ padding-top: 10px;   
+}
+/* main bar*/
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+
+header{
+        background-color: rgb(128,0,128);
+}
+
+.input-group{
+    width: 30%;
+    margin: auto;
+    padding-top: 10px;
+    background-color: rgb(128,0,128);
+}
+
+.navbar{
+    background-color: rgb(128,0,128);
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+/*special home page style*/
+section{
+    background: #7F7FD5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.special{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+/* men-clothes */
+ul{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.grid li{
+    width:20%;
+    height: 0.45%;
+    margin: 20px 30px;
+    background-color: white;
+}
+
+.grid li img{
+    width:100%;
+}
+
+@media (max-width: 1260px){
+	.grid li{
+	        width: 30%;
+		    margin: 15px 10px;
+	}
+}
+
+@media (max-width: 850px){
+	.grid li{
+	        width: 40%;
+		    margin: 15px 20px;
+	}
+}
+
+@media (max-width: 625px){
+	.grid li{
+		    margin: 15px 50px;
+		    width: 100%;
+	}
+}
+

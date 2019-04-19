@@ -1,0 +1,21 @@
+<% include ./partials/header%>
+
+<h1 class="title">MEN'S CLOTHING & ACCESSORIES</h1>
+
+
+<div>
+<ul class="grid text-center">
+<% clothes.forEach(function(clothe){ %>
+        <li>
+            <div class="thumbnail">
+                <img src="<%= clothe.img %>">
+                <h4><%= clothe.article%></h4>
+            </div>
+        </li>
+<% }); %>
+</ul>
+</div>
+
+
+
+<% include ./partials/footer%>
